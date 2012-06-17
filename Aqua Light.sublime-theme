@@ -7,14 +7,14 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/tabset-background.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/tabset-background.png",
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
         "content_margin": [-1, 0, -1, 0],
         "tab_overlap": 1,
         "tab_width": 180,
         "tab_min_width": 50,
-        "tab_height": 22,
+        "tab_height": 21,
         "mouse_wheel_switch": false
     },
     {
@@ -29,15 +29,15 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/tab-inactive.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/tab-inactive.png",
         "layer0.inner_margin": [2, 0],
         "layer0.opacity": 1.0,
         // Active tab setting
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/tab-active.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/tab-active.png",
         "layer1.inner_margin": [2, 0],
         "layer1.opacity": 0.0,
         // Hover tab setting
-        "layer2.texture": "Theme - Soda Refined/Soda Dark Refined/tab-hover.png",
+        "layer2.texture": "Theme - Aqua/Aqua Light/tab-hover.png",
         "layer2.inner_margin": [2, 0],
         "layer2.opacity": 0.0
     },
@@ -45,7 +45,7 @@
         // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [10, 4, 4, 4]
+        "content_margin": [10, 3, 3, 3]
     },
     {
         // Hover tab state
@@ -67,30 +67,31 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [180, 180, 180],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, -1] 
+        "fg": [50, 50, 50],
+        "shadow_color": [235, 235, 235],
+        "shadow_offset": [0, 1]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [210, 210, 210]
+        "fg": [25, 25, 25]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [235, 235, 235]
+        "fg": [0, 0, 0],
+        "shadow_color": [245, 245, 245]
     },
     // Tab close button
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
         // Tab close default settings
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/tab-close.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/tab-close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         // Tab close hover settings
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/tab-close-hover.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/tab-close-hover.png",
         "layer1.opacity": 0.0
     },
     {
@@ -110,7 +111,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/tab-dirty.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/tab-dirty.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
@@ -146,10 +147,10 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/fold-closed.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/fold-closed-pressed.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/fold-closed-pressed.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -169,8 +170,8 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/fold-open.png",
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/fold-open-pressed.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/fold-open.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/fold-open-pressed.png"
     },
 
 //
@@ -180,7 +181,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/standard-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6],
         "blur": false
@@ -189,7 +190,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/standard-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/standard-scrollbar-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0],
         "blur": false
@@ -197,14 +198,14 @@
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/standard-scrollbar-corner.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/standard-puck-vertical.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/standard-puck-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -214,7 +215,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/standard-puck-horizontal.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/standard-puck-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
@@ -240,7 +241,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -249,7 +250,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -257,7 +258,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-puck-vertical.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -267,7 +268,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-puck-horizontal.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -277,14 +278,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-dark-puck-vertical.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for dark content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-dark-puck-horizontal.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-dark-puck-horizontal.png"
     },
 
 //
@@ -293,7 +294,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [33, 33, 33],
+        "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
     },
 
@@ -304,7 +305,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [0, 0, 0]
+        "border_color": [173, 173, 173]
     },
 
 //
@@ -313,7 +314,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255, 255, 255, 21]
+        "viewport_color": [0, 0, 0, 18]
     },
 
 //
@@ -323,28 +324,26 @@
     // General labels
     {
         "class": "label_control",
-        "color": [210, 210, 210]
+        "color": [0, 0, 0]
     },
     // Text field labels
     {
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
-        "shadow_color": [55, 55, 55],
-        "shadow_offset": [0, 1]
+        "shadow_color": [250, 250, 250],
+        "shadow_offset": [0, 0]
     },
     // Button labels
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "color": [210, 210, 210],
-        "shadow_color": [40, 40, 40],
-        "shadow_offset": [0, 1]
+        "shadow_color": [245, 245, 245],
+        "shadow_offset": [0, 0]
     },
     // Status bar label
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [0, 0, 0],
         "shadow_color": [210, 210, 210],
         "shadow_offset": [0, 1]
     },
@@ -356,7 +355,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/tooltip.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [3, 3]
@@ -374,7 +373,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/status-bar-background.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [4, 3, 4, 3]
@@ -391,7 +390,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [173, 173, 173],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -404,14 +403,13 @@
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
-        "layer0.tint": [33, 33, 33],
-        "layer0.opacity": 1.0,
-        "dark_content": true
+        "layer0.tint": [228, 232, 237],
+        "layer0.opacity": 1.0
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -424,51 +422,56 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [180, 180, 180],
+        "color": [112, 126, 139],
         "font.bold": true,
-        "shadow_color": [0, 0, 0],
+        "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [140, 140, 140],
+        "color": [0, 0, 0],
         "shadow_offset": [0, 0]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [180, 180, 180],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "color": [0, 0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [235, 235, 235]
+        "color": [0, 0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
+        "color": [0, 0, 0],
         "font.bold": true
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "settings": ["bold_folder_labels"],
+        "color": [0, 0, 0]
     },
     // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [235, 235, 235],
-        "shadow_color": [0, 0, 0],
+        "color": [255, 255, 255],
+        "shadow_color": [34, 94, 145],
         "shadow_offset": [0, 1]
     },
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/file-close.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/file-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/file-close-selected.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/file-close-selected.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [8, 8]
@@ -489,62 +492,62 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/file-dirty.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/file-dirty.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/file-dirty-selected.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/file-dirty-selected.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/file-close.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/file-close.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/file-close-hover.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/file-close-hover.png"
     },
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-closed.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-closed-hover.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-closed-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-closed-selected.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-closed-selected.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-open.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-open-hover.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-open-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/group-open-selected.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/group-open-selected.png"
     },
 
 //
@@ -554,16 +557,16 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 0],
+        "content_margin": [4, 5, 4, 5],
+        "min_size": [70, 0],
         // Default button state
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/btn-large.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/btn-large.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 6],
+        "layer0.inner_margin": [11, 11],
         // Pressed button setup
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/btn-large-on.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/btn-large-on.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6]
+        "layer1.inner_margin": [11, 11]
     },
     {
         // Pressed button state
@@ -579,7 +582,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/text-field.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 4],
         "content_margin": [3, 4, 3, 3]
@@ -592,17 +595,17 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/panel-background.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/overlay-background.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/overlay-background.png",
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Soda Refined/Soda Dark Refined/quick-panel-background.png",
+        "layer1.texture": "Theme - Aqua/Aqua Light/quick-panel-background.png",
         "layer1.inner_margin": [12, 37, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
@@ -615,45 +618,44 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [33, 33, 33],
-        "layer0.opacity": 1.0,
-        "dark_content": true
+        "layer0.tint": [252, 252, 252],
+        "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/quick-panel-row.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
-        "fg": [170, 170, 170, 255],
-        "match_fg": [89, 137, 187, 255],
-        "bg": [41, 41, 41, 255],
-        "selected_fg": [245, 245, 245, 255],
-        "selected_match_fg": [119, 184, 250, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "fg": [50, 50, 50, 255],
+        "match_fg": [0, 0, 0, 255],
+        "bg": [245, 245, 245, 255],
+        "selected_fg": [25, 25, 25, 255],
+        "selected_match_fg": [0, 0, 0, 255],
+        "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [130, 130, 130, 255],
-        "match_fg": [220, 220, 220, 255],
-        "bg": [41, 41, 41, 255],
-        "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "fg": [150, 150, 150, 255],
+        "match_fg": [90, 90, 90, 255],
+        "bg": [245, 245, 245, 255],
+        "selected_fg": [120, 120, 120, 255],
+        "selected_match_fg": [90, 90, 90, 255],
+        "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [89, 137, 187, 255],
-        "bg": [41, 41, 41, 255],
-        "selected_fg": [119, 184, 250, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "fg": [72, 139, 211, 255],
+        "bg": [245, 245, 245, 255],
+        "selected_fg": [72, 139, 211, 255],
+        "selected_bg": [225, 225, 225, 255]
     },
 
 //
@@ -662,14 +664,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/quick-panel-row.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/quick-panel-row-selected.png"
     },
 
 //
@@ -683,22 +685,21 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [41, 41, 41],
-        "layer0.opacity": 1.0,
-        "dark_content": true
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete_label",
-        "fg": [135, 135, 135],
-        "match_fg": [245, 245, 245],
-        "bg": [41, 41, 41],
-        "selected_fg": [245, 245, 245],
-        "selected_match_fg": [245, 245, 245],
-        "selected_bg": [86, 86, 86]
+        "fg": [0, 0, 0],
+        "match_fg": [0, 0, 0],
+        "bg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
+        "selected_bg": [56, 117, 215]
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/code-completion-row-selected.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/code-completion-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -715,8 +716,8 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/btn-group-middle.png",
-        "layer0.inner_margin": [6, 6],
+        "layer0.texture": "Theme - Aqua/Aqua Light/btn-group-middle.png",
+        "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
@@ -724,21 +725,21 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/btn-group-left.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/btn-group-left.png",
         "layer0.opacity": 1.0
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/btn-group-right.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/btn-group-right.png",
         "layer0.opacity": 1.0
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/btn-small.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/btn-small.png",
         "layer0.opacity": 1.0
     },
 
@@ -749,38 +750,38 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-regex-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-regex-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-case-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-case-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-word-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-word-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-word-on.png"
     },
 
 //
@@ -790,26 +791,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-context-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-context-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-buffer-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-buffer-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-buffer-on.png"
     },
 
 //
@@ -819,38 +820,38 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-reverse-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-reverse-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-reverse-on.png"
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-wrap-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-wrap-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-selection-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-selection-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-selection-on.png"
     },
 
 //
@@ -860,14 +861,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-preserve-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-preserve-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-preserve-on.png"
     },
 
 //
@@ -877,14 +878,14 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-highlight-off.png",
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Soda Refined/Soda Dark Refined/icon-highlight-on.png"
+        "layer0.texture": "Theme - Aqua/Aqua Light/icon-highlight-on.png"
     }
 
 ]
