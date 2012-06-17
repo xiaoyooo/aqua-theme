@@ -1,6 +1,6 @@
 # Aqua Theme
 
-This theme is an evolving attempt to make Sublime Text 2 feel native on OS X. The theme began as a fork of the [Soda Theme](https://github.com/buymeasoda/soda-theme).
+This theme is an evolving attempt to make Sublime Text 2 feel more native on OS X. The theme began as a fork of the [Soda Theme](https://github.com/buymeasoda/soda-theme).
 
 ## Design
 
