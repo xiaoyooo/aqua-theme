@@ -686,10 +686,10 @@
     {
         "class": "auto_complete_label",
         "fg": [135, 135, 135],
-        "match_fg": [245, 245, 245],
+        "match_fg": [235, 235, 235],
         "bg": [41, 41, 41],
-        "selected_fg": [245, 245, 245],
-        "selected_match_fg": [245, 245, 245],
+        "selected_fg": [235, 235, 235],
+        "selected_match_fg": [235, 235, 235],
         "selected_bg": [86, 86, 86]
     },
     {
