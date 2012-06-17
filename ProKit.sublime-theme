@@ -69,7 +69,7 @@
         "fade": true,
         "fg": [180, 180, 180],
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, -1] 
+        "shadow_offset": [0, 0] 
     },
     {
         "class": "tab_label",
@@ -79,7 +79,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [230, 230, 230]
+        "fg": [215, 215, 215]
     },
     // Tab close button
     {

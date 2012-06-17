@@ -557,16 +557,16 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [4, 5, 4, 5],
-        "min_size": [70, 0],
+        "content_margin": [6, 5, 6, 6],
+        "min_size": [75, 0],
         // Default button state
         "layer0.texture": "Theme - Aqua/AppKit/btn-large.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [9, 9],
+        "layer0.inner_margin": [6, 6],
         // Pressed button setup
         "layer1.texture": "Theme - Aqua/AppKit/btn-large-on.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": [9, 9]
+        "layer1.inner_margin": [6, 6]
     },
     {
         // Pressed button state

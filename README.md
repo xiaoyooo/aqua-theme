@@ -4,9 +4,11 @@ This theme is an evolving attempt to make Sublime Text 2 feel native on OS X. Th
 
 ## Design
 
-![AppKit](http://i.imgur.com/1ES0h.png)
+### AppKit:
+![AppKit](http://i.imgur.com/FGPam.png)
 
-![ProKit](http://i.imgur.com/vdjbn.png)
+### ProKit:
+![ProKit](http://i.imgur.com/U9GuC.png)
 
 ## Installation
 
