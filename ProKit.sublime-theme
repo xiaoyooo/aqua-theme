@@ -79,7 +79,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [220, 220, 220]
+        "fg": [230, 230, 230]
     },
     // Tab close button
     {
