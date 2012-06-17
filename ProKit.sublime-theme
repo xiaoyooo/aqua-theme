@@ -79,7 +79,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [215, 215, 215]
+        "fg": [220, 220, 220]
     },
     // Tab close button
     {
@@ -454,7 +454,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [230, 230, 230],
+        "color": [235, 235, 235],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 0]
     },
