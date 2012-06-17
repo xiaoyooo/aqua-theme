@@ -716,12 +716,22 @@
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
+    {
+        "class": "icon_button_control",
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Aqua/ProKit/btn-group-middle-on.png"
+    },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
         "layer0.texture": "Theme - Aqua/ProKit/btn-group-left.png",
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "selected"],
+        "layer0.texture": "Theme - Aqua/ProKit/btn-group-left-on.png"
     },
     // Button group right
     {
@@ -730,6 +740,11 @@
         "layer0.texture": "Theme - Aqua/ProKit/btn-group-right.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "icon_button_control",
+        "attributes": ["right", "selected"],
+        "layer0.texture": "Theme - Aqua/ProKit/btn-group-right-on.png"
+    },
     // Button single
     {
         "class": "icon_button_control",
@@ -737,6 +752,11 @@
         "layer0.texture": "Theme - Aqua/ProKit/btn-small.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "right", "selected"],
+        "layer0.texture": "Theme - Aqua/ProKit/btn-small-on.png"
+    }, 
 
 //
 // BOTTOM PANEL ICONS - GROUP 1
