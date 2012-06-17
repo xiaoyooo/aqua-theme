@@ -59,4 +59,6 @@ Interested in an improved fold [...] image? In the current version of Sublime th
 
 ## Legals
 
+Based on Soda Theme by Ian Hill (http://buymeasoda.com/).
+
 This theme contains some icons from the excellent [Pictos](http://pictos.drewwilson.com/) series by Drew Wilson. Any use of these icons, other than for the purpose of the theme itself, would need to comply with Drew's [icon licensing agreement](http://stockart.drewwilson.com/license/).
