@@ -4,11 +4,11 @@ This theme is an evolving attempt to make Sublime Text 2 visually feel more nati
 
 ## Design
 
-#### AppKit
-![AppKit](http://i.imgur.com/tY9Si.png)
-
 #### ProKit
 ![ProKit](http://i.imgur.com/Dm4Pv.png)
+
+#### AppKit
+![AppKit](http://i.imgur.com/tY9Si.png)
 
 ## Installation
 
