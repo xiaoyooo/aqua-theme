@@ -565,6 +565,7 @@
         // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
+        "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
 
@@ -631,17 +632,17 @@
         "fg": [170, 170, 170, 255],
         "match_fg": [89, 137, 187, 255],
         "bg": [41, 41, 41, 255],
-        "selected_fg": [245, 245, 245, 255],
+        "selected_fg": [230, 230, 230, 255],
         "selected_match_fg": [119, 184, 250, 255],
         "selected_bg": [24, 24, 24, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
-        "match_fg": [220, 220, 220, 255],
+        "match_fg": [180, 180, 180, 255],
         "bg": [41, 41, 41, 255],
-        "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255],
+        "selected_fg": [180, 180, 180, 255],
+        "selected_match_fg": [230, 230, 230, 255],
         "selected_bg": [24, 24, 24, 255]
     },
     {
