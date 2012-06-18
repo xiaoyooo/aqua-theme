@@ -5,10 +5,10 @@ This theme is an evolving attempt to make Sublime Text 2 visually feel more nati
 ## Design
 
 #### ProKit
-![ProKit](http://i.imgur.com/yIUrp.png)
+![ProKit](http://i.imgur.com/3M8eo.png)
 
 #### AppKit
-![AppKit](http://i.imgur.com/MRatz.png)
+![AppKit](http://i.imgur.com/43uAy.png)
 
 ## Installation
 

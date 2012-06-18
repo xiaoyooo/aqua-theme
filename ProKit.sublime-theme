@@ -550,7 +550,7 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [6, 5, 6, 6],
+        "content_margin": [6, 5, 6, 5],
         "min_size": [75, 0],
         // Default button state
         "layer0.texture": "Theme - Aqua/ProKit/btn-large.png",
@@ -713,7 +713,7 @@
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Aqua/ProKit/btn-group-middle.png",
-        "layer0.inner_margin": [6, 6],
+        "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
