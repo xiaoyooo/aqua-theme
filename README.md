@@ -5,10 +5,10 @@ This theme is an evolving attempt to make Sublime Text 2 visually feel more nati
 ## Design
 
 #### ProKit
-![ProKit](http://i.imgur.com/3M8eo.png)
+![ProKit](https://github.com/cafarm/aqua-theme/raw/master/ProKit/ProKit.png)
 
 #### AppKit
-![AppKit](http://i.imgur.com/43uAy.png)
+![AppKit](https://github.com/cafarm/aqua-theme/raw/master/AppKit/AppKit.png)
 
 ## Installation
 
