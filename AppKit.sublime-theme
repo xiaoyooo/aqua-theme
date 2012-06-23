@@ -67,14 +67,13 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [50, 50, 50],
+        "fg": [49, 49, 49],
         "shadow_color": [235, 235, 235],
         "shadow_offset": [0, 1]
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [25, 25, 25]
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}]
     },
     {
         "class": "tab_label",
@@ -344,6 +343,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
+        "color": [49, 49, 49],
         "shadow_color": [210, 210, 210],
         "shadow_offset": [0, 1]
     },
@@ -634,7 +634,7 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [50, 50, 50, 255],
+        "fg": [49, 49, 49, 255],
         "match_fg": [0, 0, 0, 255],
         "bg": [245, 245, 245, 255],
         "selected_fg": [25, 25, 25, 255],
