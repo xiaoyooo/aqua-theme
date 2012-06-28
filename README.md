@@ -40,16 +40,16 @@ You will have to restart Sublime for the theme to take full effect.
 The Aqua theme includes four of the best color schemes available (two light, two dark). Each color scheme has been modified from its original version to work well with Aqua. Color schemes are activated via `Preferences -> Color Scheme -> Theme - Aqua` in Sublime Text 2.
 
 #### Espresso Aqua ([original](http://macrabbit.com))
-![espresso aqua](http://i.imgur.com/UPmHq.png)
+![espresso aqua](https://github.com/cafarm/aqua-theme/raw/master/Color%20Schemes/Espresso%20Aqua.png)
 
 #### Tomorrow Aqua ([original](https://github.com/chriskempson/tomorrow-theme))
-![tomorrow aqua](http://i.imgur.com/HRrCl.png)
+![tomorrow aqua](https://github.com/cafarm/aqua-theme/raw/master/Color%20Schemes/Tomorrow%20Aqua.png)
 
 #### Monokai Aqua ([original](http://www.monokai.nl))
-![monokai aqua](http://i.imgur.com/o8wWY.png)
+![monokai aqua](https://github.com/cafarm/aqua-theme/raw/master/Color%20Schemes/Monokai%20Aqua.png)
 
 #### Tomorrow Night Aqua ([original](https://github.com/chriskempson/tomorrow-theme))
-![tomorrow night aqua](http://i.imgur.com/QEdne.png)
+![tomorrow night aqua](https://github.com/cafarm/aqua-theme/raw/master/Color%20Schemes/Tomorrow%20Night%20Aqua.png)
 
 ### Fold [...] Image
 
