@@ -12,7 +12,7 @@ This theme is an evolving attempt to make Sublime Text 2 visually feel more nati
 
 ## Installation
 
-The best way to install the Aqua theme is through [Package Control](http://wbond.net/sublime_packages/package_control) (coming soon, for now you must clone the GitHub repo as described below).
+The best way to install the Aqua theme is through [Package Control](http://wbond.net/sublime_packages/package_control).
 
 If you do not wish to use Package Control, clone this repository directly into the `Packages` directory in the Sublime Text 2 application settings area (`~/Library/Application Support/Sublime Text 2/Packages` on OS X). The git clone command would be as follows:
 
